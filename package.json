@@ -1,0 +1,50 @@
+{
+  "name": "shadcn-ui-mcp-server",
+  "version": "1.0.0",
+  "description": "Shadcn-UI MCP Server",
+  "main": "index.js",
+  "bin": {
+    "shadcn-ui-mcp-server": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "inspector": "mcp-inspector",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heilgar/shadcn-ui-mcp-server.git"
+  },
+  "keywords": [
+    "mcp",
+    "model",
+    "context",
+    "protocol",
+    "shadcn-ui",
+    "mcp",
+    "server"
+  ],
+  "author": "heilgar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heilgar/shadcn-ui-mcp-server/issues"
+  },
+  "homepage": "https://github.com/heilgar/shadcn-ui-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.3",
+    "@types/cheerio": "^0.22.35",
+    "cheerio": "^1.0.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@types/node-fetch": "^2.6.12",
+    "typescript": "^5.8.3"
+  },
+  "volta": {
+    "node": "22.15.1",
+    "npm": "11.4.0"
+  }
+}
