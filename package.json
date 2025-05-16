@@ -1,6 +1,6 @@
 {
   "name": "@heilgar/shadcn-ui-mcp-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shadcn-UI MCP Server",
   "type": "module",
   "main": "dist/index.js",
