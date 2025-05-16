@@ -1,6 +1,6 @@
 {
   "name": "@heilgar/shadcn-ui-mcp-server",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "MCP server for shadcn/ui component references",
   "type": "module",
   "main": "dist/index.js",
