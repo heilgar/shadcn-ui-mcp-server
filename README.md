@@ -2,6 +2,10 @@
 
 A powerful and flexible MCP (Model Control Protocol) server designed to enhance the development experience with Shadcn UI components. This server provides a robust foundation for building and managing UI components with advanced tooling and functionality.
 
+<a href="https://glama.ai/mcp/servers/@heilgar/shadcn-ui-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@heilgar/shadcn-ui-mcp-server/badge" alt="Shadcn UI Server MCP server" />
+</a>
+
 ## Features
 
 ### Tools 
